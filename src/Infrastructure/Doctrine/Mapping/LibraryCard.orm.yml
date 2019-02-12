@@ -1,0 +1,11 @@
+Library\Domain\LibraryCard:
+  type: entity
+  table: library_card
+  id:
+    userEmail:
+      type: string
+      generator:
+        strategy: NONE
+  fields:
+    borrowings:
+      type: array

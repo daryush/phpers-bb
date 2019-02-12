@@ -1,0 +1,9 @@
+Library\Application\Command\ProlongateUserBookBorrowing:
+    properties:
+        isbnNumber:
+          - NotBlank: ~
+          - Isbn:
+              type: isbn13
+        userEmail:
+          - NotBlank: ~
+          - Email: ~
